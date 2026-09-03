@@ -189,9 +189,9 @@ def main() -> None:
     )
     args = parser.parse_args()
 
-    token = os.getenv("APIFY_TOKEN")
+    token = os.getenv("APIFY_API_TOKEN")
     if not token:
-        raise SystemExit("Set APIFY_TOKEN in .env or the environment.")
+        raise SystemExit("Set APIFY_API_TOKEN in .env or the environment.")
 
     client = ApifyClient(token)
     dispatch = {

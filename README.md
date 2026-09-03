@@ -56,7 +56,7 @@ This repo is a runnable quick start for the LinkedIn job scraper on Apify, wrapp
 
 ### Alternative: set the API key directly
 ```bash
-export APIFY_TOKEN="your_api_key_here"
+export APIFY_API_TOKEN="your_api_key_here"
 uv run python linkedin-job-search-api-example.py
 ```
 
@@ -218,7 +218,7 @@ Run the Actor in `search` mode with `keywords` and a `location`. It reads Linked
 
 ### How do I use the LinkedIn job scraper from Python?
 
-Clone this repo, set `APIFY_TOKEN`, run `uv sync`, then `uv run python linkedin-job-search-api-example.py`. The default run is a cheap autocomplete call; the `--example` recipes mirror the published Store tasks.
+Clone this repo, set `APIFY_API_TOKEN`, run `uv sync`, then `uv run python linkedin-job-search-api-example.py`. The default run is a cheap autocomplete call; the `--example` recipes mirror the published Store tasks.
 
 ### How do I find a LinkedIn company id?
 
@@ -250,7 +250,7 @@ Add the LinkedIn Job Search API to any MCP client through the hosted Apify MCP s
 https://mcp.apify.com/?tools=actors,docs,johnvc/linkedin-job-search-scraper
 ```
 
-Auth is either OAuth in the browser when offered, or your Apify API token (the same `APIFY_TOKEN` secret used by the Python example). Get a token at https://console.apify.com/settings/integrations and a free Apify account at https://apify.com?fpr=9n7kx3 .
+Auth is either OAuth in the browser when offered, or your Apify API token (the same `APIFY_API_TOKEN` secret used by the Python example). Get a token at https://console.apify.com/settings/integrations and a free Apify account at https://apify.com?fpr=9n7kx3 .
 
 ## Install in Claude Cowork Desktop
 
@@ -300,7 +300,7 @@ To use a token instead of browser OAuth:
 ```bash
 claude mcp add --transport http apify \
   "https://mcp.apify.com/?tools=actors,docs,johnvc/linkedin-job-search-scraper" \
-  --header "Authorization: Bearer YOUR_APIFY_TOKEN"
+  --header "Authorization: Bearer YOUR_APIFY_API_TOKEN"
 ```
 
 Then verify with `claude mcp list`, or run `/mcp` inside a session. Ask Claude Code to call the LinkedIn Job Search API.
@@ -347,7 +347,7 @@ Cursor reads MCP servers from a project file at `.cursor/mcp.json`.
   "mcpServers": {
     "apify": {
       "url": "https://mcp.apify.com/?tools=actors,docs,johnvc/linkedin-job-search-scraper",
-      "headers": { "Authorization": "Bearer YOUR_APIFY_TOKEN" }
+      "headers": { "Authorization": "Bearer YOUR_APIFY_API_TOKEN" }
     }
   }
 }
@@ -380,4 +380,4 @@ More help: https://docs.apify.com/platform/integrations/mcp
 
 *Use the LinkedIn Job Search API to power your data workflows with reliable, structured results.*
 
-Last Updated: 2026.08.31
+Last Updated: 2026.09.02
