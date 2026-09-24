@@ -206,6 +206,17 @@ The free `searchMeta` row that precedes every search (never billed):
 
 A `job` row from the `job` mode adds the full description (`descriptionText` and `descriptionHtml`), `seniorityLevel`, `employmentType`, `jobFunction`, `industries`, `numApplicants`, parsed salary fields (`salaryText`, `salaryMin`, `salaryMax`, `salaryCurrency`), `similarJobs`, and `peopleAlsoViewed`. A `suggestion` row from the typeahead modes carries `suggestionType` (`TITLE`, `COMPANY`, or `GEO`), `suggestionId`, and `displayName`.
 
+<!-- ask-ai:start -->
+## 🤖 Ask an AI assistant about this Actor
+
+Open a ready-to-send prompt about the LinkedIn Job Search API in the AI of your choice:
+
+- 💬 [ChatGPT](https://chatgpt.com/?q=Using%20the%20LinkedIn%20Job%20Search%20API%20on%20Apify%20%28https://apify.com/johnvc/linkedin-job-search-scraper?fpr=9n7kx3%29%2C%20walk%20me%20through%20this%20use%20case:%20%22Look%20Up%20LinkedIn%20Company%20IDs%20for%20Job%20Filters%22.%20Show%20me%20the%20input%20JSON%2C%20the%20output%20fields%2C%20and%20how%20to%20automate%20it%20with%20the%20API%20or%20MCP.)
+- 🧠 [Claude](https://claude.ai/new?q=Using%20the%20LinkedIn%20Job%20Search%20API%20on%20Apify%20%28https://apify.com/johnvc/linkedin-job-search-scraper?fpr=9n7kx3%29%2C%20walk%20me%20through%20this%20use%20case:%20%22Look%20Up%20LinkedIn%20Company%20IDs%20for%20Job%20Filters%22.%20Show%20me%20the%20input%20JSON%2C%20the%20output%20fields%2C%20and%20how%20to%20automate%20it%20with%20the%20API%20or%20MCP.)
+- 🔍 [Perplexity](https://www.perplexity.ai/search?q=Using%20the%20LinkedIn%20Job%20Search%20API%20on%20Apify%20%28https://apify.com/johnvc/linkedin-job-search-scraper?fpr=9n7kx3%29%2C%20walk%20me%20through%20this%20use%20case:%20%22Look%20Up%20LinkedIn%20Company%20IDs%20for%20Job%20Filters%22.%20Show%20me%20the%20input%20JSON%2C%20the%20output%20fields%2C%20and%20how%20to%20automate%20it%20with%20the%20API%20or%20MCP.)
+- 🅒 [Copilot](https://copilot.microsoft.com/?q=Using%20the%20LinkedIn%20Job%20Search%20API%20on%20Apify%20%28https://apify.com/johnvc/linkedin-job-search-scraper?fpr=9n7kx3%29%2C%20walk%20me%20through%20this%20use%20case:%20%22Look%20Up%20LinkedIn%20Company%20IDs%20for%20Job%20Filters%22.%20Show%20me%20the%20input%20JSON%2C%20the%20output%20fields%2C%20and%20how%20to%20automate%20it%20with%20the%20API%20or%20MCP.)
+<!-- ask-ai:end -->
+
 ## People also search for
 
 ### Is this a LinkedIn job scraper or an API?
