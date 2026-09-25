@@ -391,4 +391,4 @@ More help: https://docs.apify.com/platform/integrations/mcp
 
 *Use the LinkedIn Job Search API to power your data workflows with reliable, structured results.*
 
-Last Updated: 2026.09.22
+Last Updated: 2026.09.25
