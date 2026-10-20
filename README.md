@@ -219,6 +219,10 @@ Open a ready-to-send prompt about the LinkedIn Job Search API in the AI of your 
 
 ## People also search for
 
+### Will this put my LinkedIn or LinkedIn Recruiter account at risk?
+
+No. It reads public LinkedIn pages only, the ones anyone can open while signed out. It never logs in and never asks for your cookies: there is no input for an account, a password or an `li_at` session cookie. Nothing it does is tied to your LinkedIn account, your LinkedIn Recruiter seat or your Sales Navigator license. The requests run on Apify's servers, not in your browser, so nothing connects them to you, and you can keep working in Recruiter while a run is going.
+
 ### Is this a LinkedIn job scraper or an API?
 
 Both. This repo teaches the **LinkedIn Job Search API** on Apify. People often search for a "linkedin job scraper" or ways to "scrape linkedin jobs"; the same Actor covers that need and returns structured JSON you can call from Python or MCP, with no login and no cookies.
